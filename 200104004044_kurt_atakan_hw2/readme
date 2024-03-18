@@ -1,0 +1,29 @@
+
+Atakan Kurt - 200104004044
+PL HW-1
+
+
+To run flex_part at the console go to the flex_part directory
+write "make flex" to the console
+
+to run it without input.txt
+delete the line at gpp_lexer.l (59 60 61 62 63 64 65 68)
+than call "make flex"
+
+
+to test lisp_part
+go to the lisp_part directory
+in console type "clisp gpp_lexer.lisp"
+
+if you want to change run with input file or not, open 'gpp_lexer.lisp' file
+delete "input.txt" at line 164
+
+
+
+
+
+
+you can unncomment parts where to give error or not to give error
+when identifiers and operators are not seperated with white space.
+in lisp part from line (54 to 76)
+in flex part delete lines 42 and 43
